@@ -1,0 +1,252 @@
+/* Created On 8.7.2020 */
+/* Created By Keerthiseelan*/
+/* calling Font theme font */
+body{
+    background-color: currentColor !important;
+}
+@font-face {
+    font-family: rockwell;
+    src: url(../fonts/rockb.ttf);
+  
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Bold.ttf);
+  }
+/* *{
+    font-family: Montserrat;
+} */
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: rockwell;
+}
+
+ul{
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Desktop Navbar design starts here  */
+nav {
+    background-color: currentColor !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#FAF2A4;
+}
+.sign{
+    
+    color:#FAF2A4 !important;
+    
+}
+.nav-link{
+    
+    color:#FAF2A4 !important;
+    
+}
+.nav-link:hover{
+    
+    color:#fff !important;
+    
+}
+navbar ul li a img {
+    margin-top: -12px;
+}
+/* Desktop Navbar design Ends here  */
+/* slider style starts here */
+.carousel-custom{
+    height: calc(100vh - 20vh);
+    background-size: cover;
+}
+.slider-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    padding: 10px;
+}
+.slider-content h2{
+   color: #FAF2A4;
+
+}
+.slider-content p{
+    color: #fff;
+    font-weight: bold;
+    line-height: 33px;
+ 
+ }
+ /* button */
+ .custom-btn{
+    color: #2C9721;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    font-family: rockwell;
+    margin: 0 auto;
+ }
+ .custom-btn-view{
+    color: currentColor;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    
+    margin: 0 auto; 
+    /* border: 2px solid #FAF2A4; */
+    font-family: Montserrat;
+ }
+ svg.svg-inline--fa.fa-chevron-left.fa-w-10, svg.svg-inline--fa.fa-chevron-right.fa-w-10{
+     width:51px;
+     height: 61px;
+ }
+ /* section class starts here */
+ .section{
+     margin-top: 5%;
+ }
+ .section h3 , .card-title{
+     color:#FAF2A4;
+     text-align: center;
+ }
+
+ .card{
+    margin: 0 auto;
+    background-color: currentColor;
+ }
+ .card:hover{
+    box-shadow: 10px 10px 5px grey;
+    transition: 300ms;
+ }
+ 
+ .section p{
+    color:#ced4dad1;
+    text-align: center;
+    font-weight: 600;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active{
+padding: 14px;
+border-radius: 100%;
+border:1px solid black;
+}
+/* li.active{
+    background-color: black !important;
+} */
+/* icons customize */
+.fa-star{
+    color: #FFBB00;
+}
+/* footer */
+footer{
+    border-top: 1px solid #75757D;
+}
+.footer-head{
+    color: #75757D;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-list li a{
+    color: red;
+    font-size: 18px;
+    color: #75757D;
+}
+.footer-list .svg-inline--fa{
+    color: #75757D;
+    font-size: 32px;
+
+}
+
+/* loader */
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: currentColor;
+    z-index: 10;
+
+}
+.loader img{
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: popup 3s linear infinite;
+}
+@keyframes popup{
+
+    from{
+        /* transform: scale(0.5); */
+        width:0%;
+    }
+    to{
+        /* transform: scale(1); */
+        width:15%;
+    }
+}
+/*animation*/
+/* .hidden {
+    opacity: 0;
+  }
+  @keyframes fade-in {
+      from {opacity: 0; transform: translateX(100px)}
+      to {opacity: 1;}
+  }
+  .fade-in-element {
+    animation: fade-in 500ms ease-in;
+    
+  }
+  .hidden-left {
+    opacity: 0;
+  }
+  @keyframes fade-in-left {
+      from {opacity: 0; transform: translateX(-100px)}
+      to {opacity: 1;}
+  }
+  .fade-in-element-left {
+    animation: fade-in-left 500ms ease-in;
+    
+  }
+  .hidden-top {
+    opacity: 0;
+  }
+  @keyframes fade-in-top {
+      from {opacity: 0; transform: translateY(-100px)}
+      to {opacity: 1;}
+  }
+  .fade-in-element-top {
+    animation: fade-in-top 500ms ease-in;
+    
+  } */
+  /* icons */
+  .fa-shopping-cart, .fa-heart{
+    color:#FAF2A4 !important;
+}
+/* form */
+.create-account{
+    background-color: #E9ECEF;
+    margin: 0 auto;
+    padding: 20px;
+    width:40%;
+}
+form label{
+    font-weight: 700;
+    color: #111;
+    font-size: 13px;
+}
+/* shoping page */
+
+.shoping{
+
+    background-color: #E9ECEF !important;
+}
+.shoping:hover{
+
+    box-shadow: 10px 10px 5px currentColor !important;
+}
+
